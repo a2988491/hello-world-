@@ -32,4 +32,15 @@ bar | bar  | bar
 baz | baz  | baz
 
 - [ ] 我要做什么
-- [x] 目标和梦想 
+- [x] 目标和梦想
+```
+gantt
+    dateFormat YYYY-MM-DD
+    title 进度表
+section 阶段一
+项目确认:done,des1,2014-10-01,2014-10-06
+设计:done,des12,2014-10-03,2014-10-10
+section 阶段二
+调查:done,des3,2014-10-10,2014-10-20
+写报告:done,des4,2014-10-20,2014-11-20
+```
